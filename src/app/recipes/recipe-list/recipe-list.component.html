@@ -6,10 +6,12 @@
 <hr />
 <div class="row">
   <div class="col-xs-12">
-    <app-recipe-item
-      *ngFor="let recipeEl of recipes"
-      [recipe]="recipeEl"
-      (recipeSelected)="onRecipeSelected(recipeEl)"
-    ></app-recipe-item>
+    <ng-container *ngFor="let recipeEl of recipes; let last = last">
+      <app-recipe-item
+        [recipe]="recipeEl"
+        (recipeSelected)="onRecipeSelected(recipeEl)"
+      ></app-recipe-item>
+      <br *ngIf="!last" />
+    </ng-container>
   </div>
 </div>
