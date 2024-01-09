@@ -8,8 +8,48 @@ export class RecipeService {
       'https://www.kawalingpinoy.com/wp-content/uploads/2016/12/filipino-chicken-menudo-1.jpg',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        {
+          name: '	pork (preferably a fatter cut such as Boston butt)	',
+          quantity: '	2 lbs	',
+        },
+        { name: '	onion, chopped	', quantity: '	2 cups	' },
+        { name: '	fresh tomato, chopped	', quantity: '	1 cup	' },
+        { name: '	can tomato sauce	', quantity: '	1 15 oz	' },
+        { name: '	garlic cloves, chopped	', quantity: '	6 large	' },
+        { name: '	potato, skinned and cubed	', quantity: '	1 large	' },
+        { name: '	carrot, cubed	', quantity: '	1 cup	' },
+        { name: '	green bell pepper	', quantity: '	1 medium	' },
+        { name: '	red bell pepper	', quantity: '	1 medium	' },
+        { name: '	green peas	', quantity: '	1 cup	' },
+        { name: '	garbanzo beans	', quantity: '	1 cup	' },
+        { name: '	raisins	', quantity: '	1/3 cup	' },
+        { name: '	lime or lemon juice	', quantity: '	1/2 fresh	' },
+        { name: '	soy sauce, divided	', quantity: '	4 Tbsp	' },
+        { name: '	fish sauce	', quantity: '	1.5 Tbsp	' },
+        { name: '	brown sugar	', quantity: '	2 tsp	' },
+        { name: '	bay leaves	', quantity: '	2 pcs	' },
+      ],
+      [
+        {
+          step: '	Marinate the pork with lemon/lime juice, soy sauce, bay leaves, salt and pepper for at least 30 minutes to couple of hours.	',
+        },
+        {
+          step: '	Chop potatoes, carrots and bell peppers into cubes. Chop the onions and garlic.	',
+        },
+        {
+          step: '	Heat oil over medium high heat in a dutch oven or stew pot. Add onion and sauté onion till translucent. Add in chopped garlic and give it a stir for 2 minutes. Add marinated pork along with its juices and combine and cook for 10 minutes till pork is no longer pink, about 5 minutes.	',
+        },
+        {
+          step: '	Add in fish sauce and 1 cup of water. Cook for 10 minutes, covered. Stir in tomatoes and tomato sauce with enough water to cover the pork and cook covered for 30-40 minutes, stirring occasionally.	',
+        },
+        {
+          step: '	Add in potato and carrot along with brown sugar. Again cover and cook for 15-20 minutes. If liquid is needed add half a cup of water.	',
+        },
+        {
+          step: '	15 minutes before the stew is completely cooked, add in the bell peppers, peas, garbanzos and raisins.	',
+        },
+        { step: '	Taste and adjust for soy sauce .	' },
+        { step: '	Cook till pork is fork tender.	' },
       ]
     ),
     new Recipe(
@@ -18,8 +58,40 @@ export class RecipeService {
       'https://urbanblisslife.com/wp-content/uploads/2022/01/filipino-beef-caldereta-FEATURE.jpg',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        { name: '	beef cubed	', quantity: '	2 lbs	' },
+        { name: '	garlic cloves crushed and chopped	', quantity: '	3 pieces	' },
+        { name: '	onion finely chopped	', quantity: '	1 piece	' },
+        { name: '	beef broth	', quantity: '	2 cups	' },
+        { name: '	red bell pepper sliced	', quantity: '	1 piece	' },
+        { name: '	green bell pepper sliced	', quantity: '	1 piece	' },
+        { name: '	tomato sauce	', quantity: '	1 cup	' },
+        { name: '	liver spread processed using blender	', quantity: '	½ cup	' },
+        { name: '	chili flakes	', quantity: '	1 teaspoon	' },
+        { name: '	dried bay leaves	', quantity: '	3 pieces	' },
+        { name: '	potatoes sliced	', quantity: '	2 cups	' },
+        { name: '	carrots sliced	', quantity: '	2 cups	' },
+        { name: '	cooking oil	', quantity: '	1/4 cup	' },
+        { name: '	green olives	', quantity: '	⅔ cup	' },
+        { name: '	salt and pepper to taste	', quantity: '		' },
+      ],
+      [
+        { step: '	Heat the cooking oil in the cooking pot or pressure cooker.	' },
+        { step: '	Sauté the onion and garlic.	' },
+        {
+          step: '	Add the beef. Cook for 5 minutes or until the color turns light brown.	',
+        },
+        { step: '	Add the dried bay leaves and crushed pepper. Stir.	' },
+        { step: '	Add the liver spread. Stir.	' },
+        { step: '	Pour-in the tomato sauce and beef broth.	' },
+        {
+          step: '	Cook the beef until it becomes tender (about 30 mins if using a pressure cooker, or 1 to 2 hours if using an ordinary pot).	',
+        },
+        { step: '	Add potato and carrots. Cook for 8 to 10 minutes.	' },
+        {
+          step: '	Put the green olives and bell peppers in the cooking pot. Stir and continue to cook for 5 minutes more.	',
+        },
+        { step: '	Add salt and pepper to taste	' },
+        { step: '	Serve Hot. Enjoy!	' },
       ]
     ),
     new Recipe(
@@ -28,8 +100,31 @@ export class RecipeService {
       'https://panlasangpinoy.com/wp-content/uploads/2023/04/beef-nilaga-recipe-panlasang-pinoy.jpg',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        { name: 'beef brisket cubed', quantity: '2 lbs' },
+        { name: 'big potato cubed', quantity: '1' },
+        { name: 'bok choy or pechay', quantity: '1' },
+        { name: 'large onion chopped', quantity: '1' },
+        {
+          name: 'medium-sized carrots chopped crosswise (w/ length of about 2 inches)',
+          quantity: '2',
+        },
+        { name: 'whole peppercorn', quantity: '1 tbsp' },
+        { name: 'fish sauce (patis)', quantity: '3 tbsp' },
+      ],
+      [
+        { step: 'Saute the onion until texture becomes soft' },
+        { step: 'Add in the beef brisket and cook for about 5 minutes' },
+        { step: 'Add the fish sauce and whole peppercorn then mix well' },
+        {
+          step: 'Pour in the water and bring to a boil. Simmer for 1 to 2 hours (or 30 minutes if using a pressure cooker)',
+        },
+        {
+          step: 'Put in the vegetables starting with the potato and the carrots. Simmer for 5 to 7 minutes',
+        },
+        {
+          step: 'Add the bok choy (Pechay). Cover the pot and turn off the heat. Let it stay for 5 minutes',
+        },
+        { step: 'Serve hot. Share and Enjoy!' },
       ]
     ),
     new Recipe(
@@ -38,8 +133,41 @@ export class RecipeService {
       'https://panlasangpinoy.com/wp-content/uploads/2023/04/ox-tail-kare-kare.jpg',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        {
+          name: 'oxtail cut in 2 inch slices (you can also use tripe or beef slices)',
+          quantity: '3 lbs',
+        },
+        { name: 'small banana flower bud sliced', quantity: '1 piece' },
+        { name: 'pechay or bok choy', quantity: '1 bundle' },
+        { name: 'string beans cut into 2 inch slices', quantity: '1 bundle' },
+        { name: 'eggplants sliced', quantity: '4 pieces' },
+        { name: 'ground peanuts', quantity: '1 cup' },
+        { name: 'peanut butter', quantity: '1/2 cup' },
+        { name: 'shrimp paste', quantity: '1/2 cup' },
+        { name: 'water (about 1 liter)', quantity: '34 ounces' },
+        { name: 'annatto seeds soaked in a cup of water', quantity: '1/2 cup' },
+        { name: 'toasted ground rice', quantity: '1/2 cup' },
+        { name: 'garlic minced', quantity: '1 tbsp' },
+        { name: 'onion chopped', quantity: '1 piece' },
+        { name: 'salt and pepper', quantity: 'to taste' },
+      ],
+      [
+        { step: 'In a large pot, bring the water to a boil' },
+        {
+          step: 'Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker)',
+        },
+        {
+          step: 'Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes',
+        },
+        { step: 'Add the toasted ground rice and simmer for 5 minutes' },
+        {
+          step: 'On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes',
+        },
+        {
+          step: 'Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)',
+        },
+        { step: 'Add salt and pepper to taste' },
+        { step: 'Serve hot with shrimp paste. Enjoy!' },
       ]
     ),
     new Recipe(
@@ -50,7 +178,8 @@ export class RecipeService {
       [
         { name: 'pork', quantity: '2 lbs.' },
         { name: 'liver', quantity: '.25 lbs.' },
-      ]
+      ],
+      []
     ),
     new Recipe(
       'Chicken Tinola',
@@ -60,7 +189,8 @@ export class RecipeService {
       [
         { name: 'pork', quantity: '2 lbs.' },
         { name: 'liver', quantity: '.25 lbs.' },
-      ]
+      ],
+      []
     ),
     new Recipe(
       'Chicken Afritada',
@@ -70,7 +200,8 @@ export class RecipeService {
       [
         { name: 'pork', quantity: '2 lbs.' },
         { name: 'liver', quantity: '.25 lbs.' },
-      ]
+      ],
+      []
     ),
   ];
   //////////////////////////////////////////////////////////////////////////////////////////////////
