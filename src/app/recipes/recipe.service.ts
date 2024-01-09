@@ -176,10 +176,43 @@ export class RecipeService {
       'https://scontent.fwbw1-1.fna.fbcdn.net/v/t1.6435-9/55611062_2060267580694302_7834224002368274432_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=tIu-rir1WFkAX8o-hRE&_nc_ht=scontent.fwbw1-1.fna&oh=00_AfBvv1D0bCrpTOZu7PrP6z5AYyN_S1t2nhKvVVNpWIBgHg&oe=65C3FFD3',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        { name: 'beef sirloin or chuck cut into cubes', quantity: '2 lbs' },
+        { name: 'sea salt', quantity: '1 1/2 teaspoons' },
+        { name: 'ground black pepper', quantity: '1/4 teaspoon' },
+        { name: 'butter', quantity: '1/4 cup' },
+        { name: 'chopped white mushrooms', quantity: '2 lbs' },
+        { name: 'medium yellow onion, chopped', quantity: '1' },
+        { name: 'cloves garlic, crushed', quantity: '5' },
+        { name: 'tomato paste', quantity: '1/4 cup' },
+        { name: 'cream of mushroom (10 oz. can)', quantity: '1' },
+        { name: 'beef broth', quantity: '4 cups' },
+        { name: 'dried parsley flakes', quantity: '2 teaspoons' },
+        { name: 'dried oregano', quantity: '1/2 teaspoon' },
       ],
-      []
+      [
+        {
+          step: 'Rub salt and ground black pepper on the beef. Let it stay for 10 minutes.',
+        },
+        {
+          step: 'Melt 1 tablespoon butter in a Dutch oven or cooking pot. Put the beef in and cook for 3 to 5 minutes or until the color turns light brown.',
+        },
+        {
+          step: 'Remove the beef. Set Aside. Melt the remaining butter in the same cooking pot.',
+        },
+        {
+          step: 'Once the butter melts, saute the mushrooms, onions, and garlic. Continue to cook until the mushrooms become soft.',
+        },
+        { step: 'Add the beef. Cook for 2 minutes.' },
+        {
+          step: 'Add the tomato paste, parsley, oregano, and beef broth. Stir and let boil. Cover and simmer for 60 minutes.',
+        },
+        {
+          step: 'Add the cream of mushroom. Stir and cook for 2 to 3 minutes.',
+        },
+        {
+          step: 'Turn the heat off. Transfer to a serving plate. Share and enjoy!',
+        },
+      ]
     ),
     new Recipe(
       'Chicken Tinola',
@@ -187,10 +220,39 @@ export class RecipeService {
       'https://www.foxyfolksy.com/wp-content/uploads/2015/08/tinola-recipe-1.jpg',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        { name: 'whole chicken', quantity: '1, cut into serving pieces' },
+        { name: 'rice washing', quantity: '36 ounces' },
+        { name: 'green papaya', quantity: '1/2, cut into wedges' },
+        { name: 'garlic', quantity: '1 tablespoon, minced' },
+        { name: 'onion', quantity: '1, chopped' },
+        { name: 'ginger', quantity: '1 thumb, cut into strips' },
+        { name: 'fish sauce', quantity: '2 tablespoons' },
+        { name: 'hot pepper leaves', quantity: '1 cup' },
+        { name: 'fish sauce', quantity: '3 tablespoons' },
+        { name: 'ground black pepper', quantity: '1/4 teaspoon' },
       ],
-      []
+      [
+        { step: 'Sauté the garlic, onion, and ginger.' },
+        {
+          step: 'Put-in the chicken and cook until the color turns light brown.',
+        },
+        {
+          step: 'Add the fish sauce, stir, and then pour rice washing into the cooking pot. Let it boil.',
+        },
+        {
+          step: 'Cover the pot and simmer for 45 minutes. Note: Add water if needed.',
+        },
+        { step: 'Add the green papaya and cook for an additional 5 minutes.' },
+        {
+          step: 'Add the hot pepper leaves or malunggay leaves. Stir and cook for 1 minute.',
+        },
+        {
+          step: 'Season with ground black pepper. Note: You can also add fish sauce or salt if needed.',
+        },
+        { step: 'Transfer to a serving bowl.' },
+        { step: 'Serve hot.' },
+        { step: 'Share and enjoy!' },
+      ]
     ),
     new Recipe(
       'Chicken Afritada',
@@ -198,10 +260,38 @@ export class RecipeService {
       'https://www.deecuisine.com/wp-content/uploads/2021/04/deecuisine-chicken-afritada-recipe.jpg',
       false,
       [
-        { name: 'pork', quantity: '2 lbs.' },
-        { name: 'liver', quantity: '.25 lbs.' },
+        { name: 'chicken', quantity: '1 ½ lbs., cut into serving pieces' },
+        { name: 'potato', quantity: '2 pieces, cubed' },
+        { name: 'carrot', quantity: '1 piece, sliced' },
+        { name: 'tomato sauce', quantity: '8 oz.' },
+        { name: 'hotdog', quantity: '3 pieces, sliced' },
+        { name: 'green peas', quantity: '½ cup' },
+        { name: 'bay leaves', quantity: '3 pieces' },
+        { name: 'red onion', quantity: '1 piece, chopped' },
+        { name: 'garlic', quantity: '2 teaspoons, minced' },
+        { name: 'chicken broth', quantity: '3 cups' },
+        { name: 'sugar', quantity: '½ teaspoon' },
+        { name: 'cooking oil', quantity: '3 tablespoons' },
+        { name: 'salt', quantity: 'to taste' },
+        { name: 'ground black pepper', quantity: 'to taste' },
       ],
-      []
+      [
+        {
+          step: 'Heat the oil in a cooking pot. Sauté onion and garlic until the onion softens.',
+        },
+        {
+          step: 'Add chicken. Cook for 30 seconds. Turn it over and cook the other side for another 30 seconds.',
+        },
+        { step: 'Pour tomato sauce and chicken broth. Cover. Let it boil.' },
+        {
+          step: 'Add dried bay leaves. Cover the cooking pot. Continue to cook over medium heat for 30 minutes.',
+        },
+        { step: 'Add hotdogs and carrot. Cook for 3 minutes.' },
+        { step: 'Add potato. Cover the pot and cook for 8 minutes.' },
+        { step: 'Add green peas. Cook for 2 minutes.' },
+        { step: 'Season with salt and ground black pepper.' },
+        { step: 'Serve!' },
+      ]
     ),
   ];
   //////////////////////////////////////////////////////////////////////////////////////////////////
