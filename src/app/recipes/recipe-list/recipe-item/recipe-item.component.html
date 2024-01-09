@@ -3,6 +3,7 @@
     cursor: 'pointer',
     'background-color': recipe.isSelected ? '#ffa500' : 'inherit'
   }"
+  [ngClass]="{ selectedItem: recipe.isSelected }"
   class="list-group-item clearfix"
   (click)="onSelected()"
 >
