@@ -1,18 +1,24 @@
-<a
-  style="cursor: pointer"
+<div
+  [ngStyle]="{
+    cursor: 'pointer',
+    'background-color': recipe.isSelected ? '#ffa500' : 'inherit'
+  }"
   class="list-group-item clearfix"
   (click)="onSelected()"
 >
-  <div class="pull-left">
-    <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
-    <p class="list-group-item-text">{{ recipe.description }}</p>
+  <div class="row">
+    <div class="col-xs-8">
+      <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+      <p class="list-group-item-text">{{ recipe.description }}</p>
+    </div>
+
+    <div class="col-xs-4">
+      <img
+        [src]="recipe.imagePath"
+        alt="{{ recipe.name }}"
+        class="img-responsive"
+        style="max-width: 100px; max-height: auto"
+      />
+    </div>
   </div>
-  <span class="pull-right">
-    <img
-      [src]="recipe.imagePath"
-      alt="{{ recipe.name }}"
-      class="img-responsive"
-      style="max-width: 100px; max-height: auto"
-    />
-  </span>
-</a>
+</div>
