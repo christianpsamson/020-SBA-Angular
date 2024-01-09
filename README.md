@@ -2,6 +2,8 @@
 
 Filipino Favorites is a project dedicated to showcasing a delightful collection of Filipino dish recipes. Our repository is ever-expanding, with a commitment to providing a diverse selection of beloved Filipino culinary creations. Whether you're a seasoned cook or just starting in the kitchen, our collection is designed to cater to all skill levels.
 
+![Base URL screenshot](src/assets/project.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
 ## How to Use
