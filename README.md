@@ -1,27 +1,80 @@
 # Favorite Filipino Recipes
 
+Filipino Favorites is a project dedicated to showcasing a delightful collection of Filipino dish recipes. Our repository is ever-expanding, with a commitment to providing a diverse selection of beloved Filipino culinary creations. Whether you're a seasoned cook or just starting in the kitchen, our collection is designed to cater to all skill levels.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
-## Development server
+## How to Use
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Navigate to the Recipes section to explore our diverse collection.
+2. Select a recipe of your choice to reveal complete details, including ingredients and instructions.
+3. Grocery List (work in progress):
+   Only adding items to the list is currently supported.
 
-## Code scaffolding
+## Project Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Data Binding
 
-## Build
+The following are few of the components which utilized various data binding techniques. Data binding has been used atleast four times in this project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. recipe-detail.component.html:
+   <p>&nbsp;</p>
 
-## Running unit tests
+property binding
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```html
+[src]="recipe.imagePath"
+```
 
-## Running end-to-end tests
+string interpolation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```html
+<h1>{{ recipe.name }}</h1>
+```
 
-## Further help
+<p>&nbsp;</p>
+2. recipe-item.component.html:
+<p>&nbsp;</p>
+property binding
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```html
+[src]="recipe.imagePath"
+```
+
+string interpolation
+
+```html
+<h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+<p class="list-group-item-text">{{ recipe.description }}</p>
+```
+
+### Directives Utilization
+
+Various directives have been strategically employed accross different components to enhance the functionality and appearance of the application.
+
+1. recipe-list.component.html:
+
+```html
+<ng-container *ngFor="let recipeEl of recipes; let last = last"></ng-container>
+```
+
+```html
+<br *ngIf="!last" />
+```
+
+2. recipe-item.component.html:
+
+```css
+ [ngStyle]="{
+    cursor: 'pointer',
+    'background-color': recipe.isSelected ? '#ffa500' : 'inherit'
+  }"
+  [ngClass]="{ selectedItem: recipe.isSelected }"
+```
+
+### Angular Routing
+
+The application includes two distint routes which render different views.
+
+1. Recipes
+2. Grocery List
